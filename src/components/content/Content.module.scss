@@ -1,0 +1,99 @@
+.wrapper {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: space-between;
+
+  .content {
+    .title {
+      max-width: 362px;
+      font-size: 48px;
+      line-height: 58px;
+    }
+
+    .subtitle {
+      margin-bottom: 30px;
+      font-size: 48px;
+      font-weight: 900;
+      line-height: 58px;
+      color: transparent;
+      background: linear-gradient(92deg, #fcb045 27.14%, #ff3f78 121.36%),
+        #e4e5ea;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .text {
+      max-width: 275px;
+      font-size: 18px;
+      line-height: 22px;
+      font-family: 'Montserrat';
+    }
+  }
+
+  .giftsContainer {
+    text-align: right;
+
+    .giftsTitle {
+      max-width: 291px;
+      margin-bottom: 40px;
+      padding-top: 15px;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 22px;
+      text-align: right;
+
+      span {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 22px;
+        color: transparent;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        background: linear-gradient(90deg, #fcb045 36.99%, #fd1d1d 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+    }
+
+    .gifts {
+      margin-bottom: 60px;
+      display: grid;
+      grid-template-columns: repeat(2, 135px);
+      grid-template-rows: repeat(2, 1fr);
+      gap: 30px;
+
+      .gift {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+
+        .giftTitle {
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 22px;
+          letter-spacing: 0.05em;
+          text-transform: uppercase;
+        }
+
+        .giftText {
+          font-size: 16px;
+          line-height: 20px;
+          font-family: 'Montserrat';
+        }
+      }
+    }
+
+    .giftButton {
+      padding: 21px 35px;
+      color: #e4e5ea;
+      font-weight: 500;
+      text-align: center;
+      background: #4077f3;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+}

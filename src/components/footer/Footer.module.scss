@@ -1,0 +1,77 @@
+.wrapper {
+  margin-bottom: 20px;
+
+  .footer {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+
+    .title {
+      margin-bottom: 20px;
+      color: #656566;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 17px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    .company {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .menu {
+      height: 135px;
+      margin-right: 163px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      gap: 10px 52px;
+    }
+
+    .contacts {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      text-align: right;
+
+      .phone {
+        font-weight: 500;
+      }
+
+      .messengers {
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+
+        .messenger {
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+  }
+
+  .privatyPolicy {
+    text-align: right;
+    font-family: 'Montserrat';
+
+    .text {
+      margin-bottom: 5px;
+      font-size: 12px;
+      line-height: 15px;
+    }
+
+    .link {
+      color: #e4e5ea;
+      font-size: 12px;
+      line-height: 15px;
+      text-decoration-line: underline;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+}
