@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/welbex-screen/static/css/main.5b171528.css",
+    "main.js": "/welbex-screen/static/js/main.cffb99c2.js",
+    "index.html": "/welbex-screen/index.html",
+    "main.5b171528.css.map": "/welbex-screen/static/css/main.5b171528.css.map",
+    "main.cffb99c2.js.map": "/welbex-screen/static/js/main.cffb99c2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b171528.css",
+    "static/js/main.cffb99c2.js"
+  ]
+}
